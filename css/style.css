@@ -1,0 +1,90 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, rgb(87, 213, 242)-10%, rgb(49, 97, 255)110%);
+  height: 100vh;
+  font-family: 'nunito sans', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 50px;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: white;
+  
+}
+
+input {
+  background: rgba(255, 255, 255, 0.274);
+  border: none;
+  height: 2.5em;
+  border-radius: 12px 0 0 12px;
+  padding: 0 20px;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1em;
+  
+  
+}
+
+button {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.274);
+  border-left: none;
+  height: 2.5em;
+  width: 100px;
+  color: white;
+  border-radius: 0 12px 12px 0;
+  font-weight: 800;
+}
+
+main {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 150px;
+}
+
+main div {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.198);
+  color: white;
+  min-width: 200px;
+}
+
+main div h2 {
+  padding-bottom: 15px;
+  line-height: 22px;
+}
+
+#title {
+  padding-top: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
